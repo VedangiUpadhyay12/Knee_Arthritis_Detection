@@ -1,0 +1,28 @@
+https://drive.google.com/drive/folders/1pjbNGV3PAPf_anTJIOEtrcuhhUo6U3uZ?usp=sharing
+This project uses a labeled X-ray dataset containing **9000+ images** of knees for osteoarthritis detection and grading.
+
+### 🗂️ Main Folders
+
+| Folder        | Purpose                          |
+|---------------|----------------------------------|
+| `train/`      | Training set                     |
+| `val/`        | Validation set                   |
+| `test/`       | Testing set                      |
+| `auto_test/`  | For automated predictions export |
+
+Each of these folders contains 5 subfolders corresponding to OA severity grades:
+
+/0/ → Normal (Grade 0)
+/1/ → Doubtful
+/2/ → Mild
+/3/ → Moderate
+/4/ → Severe (Grade 4)
+
+
+| Grade | Description                                      |
+|-------|--------------------------------------------------|
+| 0     | Normal, no signs of osteoarthritis               |
+| 1     | Doubtful joint space narrowing                   |
+| 2     | Definite osteophytes, possible narrowing         |
+| 3     | Moderate osteophytes, clear narrowing            |
+| 4     | Severe narrowing, sclerosis, deformity           |
