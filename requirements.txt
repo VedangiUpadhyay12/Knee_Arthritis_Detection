@@ -1,7 +1,7 @@
-streamlit
-tensorflow==2.12.0
+tensorflow
 numpy
+matplotlib
 pandas
 opencv-python
-Pillow
-matplotlib
+streamlit
+scikit-learn
